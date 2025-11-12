@@ -1,0 +1,108 @@
+/* General Styling */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background: linear-gradient(to bottom, #1a1a2e, #16213e);
+    color: white;
+    text-align: center;
+}
+
+/* Navigation */
+header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #0FC0FF;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff4500;
+}
+
+/* Hero Section */
+.about-hero {
+    margin-top: 80px;
+    padding: 60px;
+    background: linear-gradient(to right, #0FC0FF, #222);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+
+/* About Content */
+.about-content {
+    padding: 40px;
+    text-align: left;
+    width: 60%;
+    margin: auto;
+}
+
+.about-content h2 {
+    color: #b108fb;
+}
+
+.about-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    padding: 20px;
+    margin-top: 40px;
+    color: #888;
+}
+
+.row {
+    display: flex;
+    align-items: center; /* Ensures vertical alignment */
+    gap: 20px; /* Adjusts space between columns */
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1; /* Ensures equal width distribution */
+}
+.button{
+    text-decoration: none;
+    background-color: #0FC0FF;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    padding: 15px;
+
+}
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #ff4500;
+}
+
+.left {
+    text-align: right; /* Aligns image to the right within its column */
+}
+
+.right {
+    text-align: left; /* Aligns text to the left */
+}
